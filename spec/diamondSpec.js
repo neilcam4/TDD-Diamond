@@ -9,10 +9,10 @@ describe("Diamond", function(){
         let result = diamond(input)
         expect(result).toEqual('  A\n B B')
     })
-    it("should print C on third line", function(){
-        let input = 'C'
+    it("should print c on third line", function(){
+        let input = 'c'
         let result = diamond(input)
-        expect(result).toEqual('  A\n B B\nC     C')
+        expect(result).toEqual('  A\n B B\nc     c')
     })
     it("should print D on third line and finish diamond", function(){
         let input = 'D'

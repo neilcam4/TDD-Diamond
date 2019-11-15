@@ -1,11 +1,11 @@
 function diamond(input){
     if(input == 'A'){
-        return '  A'
+        return `  ${input}`
     } else if (input === 'B'){
-        return '  A\n B B'
-    } else if (input === 'C'){
+        return `  A\n ${input} ${input}`
+    } else if (input === 'c'){
         return `  A\n B B\n${input}     ${input}`
-    } else if(input ==='D'){
+    } else 
         return `  A\n B B\n${input}   ${input}\n B B\n  A`
-    }
+    
 }
