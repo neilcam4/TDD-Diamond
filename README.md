@@ -5,16 +5,16 @@ Given a letter, print a diamond starting with ‘A’ with the supplied letter a
 
 For example: print-diamond ‘C’ prints
 
-  A
+  ` A`
   
   
- B B
+ `B   B`
  
  
-C   C
+`C    C`
 
 
- B B
+ `B  B`
  
  
-  A
+  `A`
