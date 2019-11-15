@@ -6,7 +6,15 @@ Given a letter, print a diamond starting with ‘A’ with the supplied letter a
 For example: print-diamond ‘C’ prints
 
   A
+  
+  
  B B
+ 
+ 
 C   C
+
+
  B B
+ 
+ 
   A
